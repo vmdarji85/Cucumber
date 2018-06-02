@@ -1,0 +1,1034 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 215383283,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Validate the browser",
+            "match": {
+              "location": "stepDefination.validate_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 109653,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Brower is triggred",
+            "match": {
+              "location": "stepDefination.brower_is_triggred()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79360,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Check if browser is started",
+            "match": {
+              "location": "stepDefination.check_if_browser_is_started()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Homepage default Login",
+        "description": "",
+        "id": "application-login;homepage-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 347733,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on Bank Login Page",
+            "match": {
+              "location": "stepDefination.user_is_on_bank_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3750823,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is login with correct Username \"john\" and password \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "john",
+                  "offset": 37
+                },
+                {
+                  "val": "1234",
+                  "offset": 57
+                }
+              ],
+              "location": "stepDefination.user_is_login_with_correct_username_something_and_password_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68694,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Homepage is populated",
+            "match": {
+              "location": "stepDefination.homepage_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 133119,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Cards displayed are \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefination.cards_displayed_are(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@PortalTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 80640,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Validate the browser",
+            "match": {
+              "location": "stepDefination.validate_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 299093,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Brower is triggred",
+            "match": {
+              "location": "stepDefination.brower_is_triggred()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 264960,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Check if browser is started",
+            "match": {
+              "location": "stepDefination.check_if_browser_is_started()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Homepage default Login",
+        "description": "",
+        "id": "application-login;homepage-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 153600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User is on Bank Login Page",
+            "match": {
+              "location": "stepDefination.user_is_on_bank_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 104533,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is login with correct Username \"John\" and password \"Doe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John",
+                  "offset": 37
+                },
+                {
+                  "val": "Doe",
+                  "offset": 57
+                }
+              ],
+              "location": "stepDefination.user_is_login_with_correct_username_something_and_password_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56320,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Homepage is populated",
+            "match": {
+              "location": "stepDefination.homepage_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 97280,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Cards displayed are \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "false",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefination.cards_displayed_are(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@PortalTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 117759,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Validate the browser",
+            "match": {
+              "location": "stepDefination.validate_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 95573,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Brower is triggred",
+            "match": {
+              "location": "stepDefination.brower_is_triggred()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124586,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Check if browser is started",
+            "match": {
+              "location": "stepDefination.check_if_browser_is_started()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Homepage default Login",
+        "description": "",
+        "id": "application-login;homepage-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 102400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User is on Bank Login Page",
+            "match": {
+              "location": "stepDefination.user_is_on_bank_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2632531,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is Signup with following details",
+            "match": {
+              "location": "stepDefination.User_is_Signup_with_following_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "vivek",
+                  "darji",
+                  "1/4/85",
+                  "Male",
+                  "5708500829"
+                ],
+                "line": 23
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101546,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Homepage is populated",
+            "match": {
+              "location": "stepDefination.homepage_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 238506,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Cards displayed are \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "false",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefination.cards_displayed_are(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@PortalTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 114773,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Validate the browser",
+            "match": {
+              "location": "stepDefination.validate_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 81920,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Brower is triggred",
+            "match": {
+              "location": "stepDefination.brower_is_triggred()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68694,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Check if browser is started",
+            "match": {
+              "location": "stepDefination.check_if_browser_is_started()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "Homepage default login",
+        "description": "",
+        "id": "application-login;homepage-default-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 99840,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User is on Bank Login Page",
+            "match": {
+              "location": "stepDefination.user_is_on_bank_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 277333,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User is login with username user1 and pswd pass1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user1",
+                  "offset": 28
+                },
+                {
+                  "val": "pass1",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefination.user_is_login_with_username_and_pswd(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Homepage is populated",
+            "match": {
+              "location": "stepDefination.homepage_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 118614,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Cards displayed are \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefination.cards_displayed_are(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@PortalTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 215893,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Validate the browser",
+            "match": {
+              "location": "stepDefination.validate_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 189867,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Brower is triggred",
+            "match": {
+              "location": "stepDefination.brower_is_triggred()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3418024,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Check if browser is started",
+            "match": {
+              "location": "stepDefination.check_if_browser_is_started()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "Homepage default login",
+        "description": "",
+        "id": "application-login;homepage-default-login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 76800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User is on Bank Login Page",
+            "match": {
+              "location": "stepDefination.user_is_on_bank_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 336213,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User is login with username user2 and pswd pass2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user2",
+                  "offset": 28
+                },
+                {
+                  "val": "pass2",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefination.user_is_login_with_username_and_pswd(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8537592,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Homepage is populated",
+            "match": {
+              "location": "stepDefination.homepage_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 353280,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Cards displayed are \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefination.cards_displayed_are(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@PortalTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 442453,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Validate the browser",
+            "match": {
+              "location": "stepDefination.validate_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 540159,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Brower is triggred",
+            "match": {
+              "location": "stepDefination.brower_is_triggred()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 122027,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Check if browser is started",
+            "match": {
+              "location": "stepDefination.check_if_browser_is_started()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "Homepage default login",
+        "description": "",
+        "id": "application-login;homepage-default-login;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 766293,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User is on Bank Login Page",
+            "match": {
+              "location": "stepDefination.user_is_on_bank_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 288427,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User is login with username user3 and pswd pass3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user3",
+                  "offset": 28
+                },
+                {
+                  "val": "pass3",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefination.user_is_login_with_username_and_pswd(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 127146,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Homepage is populated",
+            "match": {
+              "location": "stepDefination.homepage_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 765012,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Cards displayed are \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefination.cards_displayed_are(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@PortalTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2829651,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Validate the browser",
+            "match": {
+              "location": "stepDefination.validate_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 90453,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Brower is triggred",
+            "match": {
+              "location": "stepDefination.brower_is_triggred()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 343040,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Check if browser is started",
+            "match": {
+              "location": "stepDefination.check_if_browser_is_started()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 37,
+        "name": "Homepage default login",
+        "description": "",
+        "id": "application-login;homepage-default-login;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 851200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User is on Bank Login Page",
+            "match": {
+              "location": "stepDefination.user_is_on_bank_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 805972,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User is login with username user4 and pswd pass4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user4",
+                  "offset": 28
+                },
+                {
+                  "val": "pass4",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefination.user_is_login_with_username_and_pswd(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 476586,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Homepage is populated",
+            "match": {
+              "location": "stepDefination.homepage_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 252160,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Cards displayed are \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefination.cards_displayed_are(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@PortalTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 79360,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Validate the browser",
+            "match": {
+              "location": "stepDefination.validate_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 423253,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Brower is triggred",
+            "match": {
+              "location": "stepDefination.brower_is_triggred()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1121279,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Check if browser is started",
+            "match": {
+              "location": "stepDefination.check_if_browser_is_started()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "Homepage default login",
+        "description": "",
+        "id": "application-login;homepage-default-login;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2070185,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User is on Bank Login Page",
+            "match": {
+              "location": "stepDefination.user_is_on_bank_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 148907,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User is login with username user5 and pswd pass5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user5",
+                  "offset": 28
+                },
+                {
+                  "val": "pass5",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefination.user_is_login_with_username_and_pswd(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 202667,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Homepage is populated",
+            "match": {
+              "location": "stepDefination.homepage_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 100266,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Cards displayed are \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefination.cards_displayed_are(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@PortalTest"
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "Account.feature"
+  }
+]
