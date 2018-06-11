@@ -16,12 +16,16 @@ public class stepDefination {
 	@Given("^User is on Bank Login Page$")
 	public void user_is_on_bank_login_page() throws Throwable {
 		System.out.println("\nUser sucessfully navigate to Banking page");
+		System.out.println("\nUser sucessfully navigate to Banking page");
+		System.out.println("\nUser sucessfully navigate to Banking page");
 	}
 
 	@When("^User is login with correct Username and password$")
 	public void user_is_login_with_correct_username_and_password() throws Throwable {
 		System.out.println("User successfully Login in Banking page");
-
+		System.out.println("User successfully Login in Banking page");
+		System.out.println("User successfully Login in Banking page");
+		System.out.println("User successfully Login in Banking page");
 	}
 
 	@Then("^Homepage is populated$")
@@ -68,6 +72,7 @@ public class stepDefination {
 	@When("^Brower is triggred$")
 	public void brower_is_triggred() throws Throwable {
 		System.out.println("Browser is triggred");
+		
 	}
 
 	@Then("^Check if browser is started$")
